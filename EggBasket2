@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class EggBasket2
+{
+    public static void main(String[] args)
+    {
+        Scanner keyboard = new Scanner(System.in);
+        int numberOfBaskets, eggsPerBasket, totalEggs;
+        
+        System.out.println("Enter the number of eggs in each basket:");
+        eggsPerBasket = keyboard.nextInt(); // easy shit
+        System.out.println("Enter the nubmeer of baskets:")
+        numberOfBaskets = keyboard.nextInt();
+        totalEggs = numberOfBaskets * eggsPerBasket;
+
+        System.out.println("If you have");
+        System.out.println(eggsPerBasket + " eggs per basket, and");
+        System.out.println(numberOfBaskets + "baskets, then");
+        System.out.println("the total number of eggs is " + totalEggs);
+
+        System.out.println("Now we take two eggs out of each basket");
+        eggsPerBasket = eggsPerBasket - 2;
+        totalEggs = numberOfBaskets * eggerPerBasket;
+
+        System.out.println("If you have");
+        System.out.println(eggsPerBasket + " eggs per basket, and");
+        System.out.println(numberOfBaskets + "baskets, then");
+        System.out.println("the total number of eggs is " + totalEggs);
+
+        keyboard.close();
+
+    } // end main
+}   // end class
