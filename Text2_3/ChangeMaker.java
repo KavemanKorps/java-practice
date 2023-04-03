@@ -22,7 +22,7 @@ public class ChangeMaker
 
         System.out.println(originalAmount + " cents in coins can be given as");
         System.out.println(quarters);
-        // print all the other currencies too bla bla bla
+        // print all the other currencies too bla bla bla lol this is very boring
 
         keyboard.close();
     }
