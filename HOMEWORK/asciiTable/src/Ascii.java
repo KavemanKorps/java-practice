@@ -22,13 +22,13 @@ public class Ascii {
             option = myObj.next();  // Read user input
 
             switch (option) {
-                // CHECK IF 'I' IS A MULTIPLE OF 8 (NUM. OF CHARS PER LINE). IF SO, NEW LINE.
                 case "exit":
                     System.out.println("exiting program...");
                     System.out.println();
                     // break;
                     System.exit(0);
     
+                // CHECK IF 'COUNT' IS A MULTIPLE OF 8 (NUM. OF CHARS PER LINE). IF SO, NEW LINE.
                 case "for":
                     // with a for loop:
                     System.out.println("This is a countdown using a for loop.");
@@ -48,9 +48,6 @@ public class Ascii {
                     System.out.println("This is a countdown using a while loop.");
                     while (count <= 126)
                     {
-                        // System.out.println(count + " = " + (char)count);
-                        // count++;
-    
                         System.out.format("%3d = %-2c", count, (char)(count));
                         if (count % 8 == 0)
                             System.out.println();
@@ -78,8 +75,7 @@ public class Ascii {
 
                 default: 
                     System.out.println("That is not an option");
-            }
-                   
+            }                 
         }
         while (option != "exit");
 
