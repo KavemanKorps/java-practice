@@ -49,20 +49,18 @@ public class DrawTriangles
             for (spaces = choice - lines; spaces >= 0; spaces--)
             {
                 System.out.print("  ");
-                // why do we add spaces? so that there's a nice horizontal space inbetween the stars.
             }
 
             for (stars = 1; stars <= lines; stars++)
             {
                 // System.out.print(" ");
-                System.out.print("* ");
-                // why do we add spaces? so that there's a nice horizontal space inbetween the stars.
+                System.out.print("*");
+                System.out.print(" ");
             }
             System.out.println();
         }
         System.out.println(); 
     }
-
 
     /*
      *  *  *

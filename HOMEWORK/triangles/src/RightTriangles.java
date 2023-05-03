@@ -1,15 +1,8 @@
-/* Name:    HEY ASSHOLE, THIS IS THE PROGRAM YOU'RE SUPPOSED TO ACTUALLY RUN
- * Class:
- * Due Date:
- * Project: 
- * Description:
- */
-
-/* Name:
- * Class:
- * Due Date:
- * Project: 
- * Description:
+/* Name:  RightTriangles.java
+ * Class:   RightTriangles
+ * Due Date:    May 5, 2023   
+ * Project:     Draw Triangles
+ * Description: Given a number, this will print out 4 different triangles of the given size.
  */
 
 public class RightTriangles {
@@ -19,9 +12,3 @@ public class RightTriangles {
         menu.prompt();              // prompt method. What's it do?
     }
 }
-
-// public class RightTriangles {
-//     public static void main(String[] args) throws Exception {
-//         System.out.println("hello world");
-//     }
-// }
