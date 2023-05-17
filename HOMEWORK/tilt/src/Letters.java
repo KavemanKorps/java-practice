@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import javax.lang.model.util.ElementScanner14;
-
 public class Letters {
     private String input;
     private int line, count;
@@ -22,13 +20,16 @@ public class Letters {
     {
         for (line = 0; line < 5; line++) 
         {
-            for (count = 0; count < 5; count++) 
+            for (count = 0; count < 4; count++) 
             {
                 letter = input.charAt(count);
 
                 if (letter == 'T') 
+                    printT();
                 else if (letter == 'I')
+                    printI();
                 else if (letter == 'L')
+                    printL();
                 else 
                 {
                     System.out.println("\nInput input detected, terminating program");

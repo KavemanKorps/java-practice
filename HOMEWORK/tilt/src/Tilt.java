@@ -10,7 +10,7 @@ public class Tilt
     {
         Letters letter = new Letters();
 
-        letter.readIn();
+        letter.readInput();
         letter.printOut();
     }
 }
