@@ -1,7 +1,7 @@
 /* Name: Tilt.java
  * Assignment: 
  * Due Date: 
- * Description:
+ * Description: 
  */
 
 public class Tilt 

@@ -30,6 +30,8 @@ public class Letters {
                     printI();
                 else if (letter == 'L')
                     printL();
+                else if (letter == 'S')
+                    printS();
                 else 
                 {
                     System.out.println("\nInput input detected, terminating program");
@@ -67,5 +69,16 @@ public class Letters {
             System.out.print("-----");
         else 
             System.out.print("|    "); 
+    }
+
+    // for letter S
+    private void printS()
+    {
+        if (line == 0 || line == 2 || line == 4 )
+            System.out.print("-----");
+        else if (line == 1) 
+            System.out.print("|    ");
+        else 
+            System.out.print("    |");
     }
 }
