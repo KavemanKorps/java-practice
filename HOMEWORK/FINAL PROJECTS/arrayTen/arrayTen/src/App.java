@@ -2,22 +2,22 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        int intArray[];   
-        intArray = new int[3];
+        float floatArr[];   
+        floatArr = new float[10];
 
         int number;
         Scanner keyboard = new Scanner(System.in);
 
-        System.out.println("Enter 3 floats:");
-        for (int i = 0; i < 3; i++) {
+        System.out.println("Enter 10 floats:");
+        for (int i = 0; i < floatArr.length; i++) {
             number = keyboard.nextInt();
-            intArray[i] = number;
+            floatArr[i] = number;
         }
         keyboard.close();
 
-        System.out.println("\nPrinting your numbers now!:");
-        for (int j = 0; j <= 3; j++) {
-            System.out.println(intArray[j]);
+        System.out.println("\nPrinting your floats now!:");
+        for (int j = 0; j <= floatArr.length - 1; j++) {
+            System.out.println(floatArr[j]);
         }
     }
 }
